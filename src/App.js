@@ -218,7 +218,7 @@ const App = () => {
     if (darkTheme === "true") {
       toggleMode();
     }
-  }, [determineweatherurl]);
+  }, []);
   
   const location = () => {
     navigator.geolocation.getCurrentPosition((position) => {
